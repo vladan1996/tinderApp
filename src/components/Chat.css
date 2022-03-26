@@ -1,0 +1,39 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5px;
+  position: relative;
+  border-bottom: 1px solid #e9e9e9;
+}
+.chat__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 10px;
+  margin-left: 15px;
+}
+.chat__info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  flex: 1;
+}
+
+.chat__info > p {
+  font-size: 12px;
+  margin-top: 4px;
+  color: gray;
+}
+
+.chat__time {
+  margin-right: 20px;
+  font-size: 13px;
+  color: gray;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
